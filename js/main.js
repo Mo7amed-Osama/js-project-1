@@ -43,7 +43,6 @@ gear.onclick = function(){
         settings.style.display = "none"; 
         gear.style.left = "0px";   
     }
-    console.log(settings.style.display);
     
 }
 //////////////////////////////////////////////////////////////////
@@ -78,7 +77,7 @@ let i =0;
 
 setInterval(function() {
     // Set the background image of the div
-    LandingDiv.style.backgroundImage = `url(${landingBg[i]})`;
+    LandingDiv.style.cssText = `background-image : url(${landingBg[i]});`;
     i++;
 
     if (i >= landingBg.length) {

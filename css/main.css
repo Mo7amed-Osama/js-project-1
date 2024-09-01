@@ -224,7 +224,7 @@ header ul li a {
 /* start gallary */
 .gallary{
     overflow: hidden;
-    padding-top: 10px;
+    padding-top: 70px;
     padding-bottom: 50px;
     position: relative;
 }
@@ -242,6 +242,9 @@ header ul li a {
     grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
     grid-gap: 15px;
     position: relative;
+    max-width: 880px;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 .gallary .images img {

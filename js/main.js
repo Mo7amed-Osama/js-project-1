@@ -71,7 +71,7 @@ orange.onclick = function(){
 }
 ////////////////////////////////////////////////////////////////
 // make the background of landing change 
-let landingBg = ["/images/landingBG1.jpg" , "/images/landingBG2.jpg" , "/images/landingBG3.jpg", "/images/landingBG4.jpg" , "/images/landingBG5.jpg"];
+let landingBg = ["../../js-project-1/images/landingBG1.jpg" , "../../js-project-1/images/landingBG2.jpg" , "../../js-project-1/images/landingBG3.jpg", "../../js-project-1/images/landingBG4.jpg" , "../../js-project-1/images/landingBG5.jpg"];
 let LandingDiv = document.querySelector(".landing");
 let i =0;
 

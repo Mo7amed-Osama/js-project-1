@@ -85,7 +85,7 @@ header ul li a {
 /* end header */
 /* start landing */
 .landing {
-    background-image: url(../images/landingBG1.jpg);
+    background-image: url(../../js-project-1/images/landingBG1.jpg);
     height: 100vb;
     background-repeat: no-repeat;
     background-size: cover;

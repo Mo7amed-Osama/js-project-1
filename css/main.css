@@ -147,7 +147,7 @@ header ul li a {
     width: 400px;
 }
 .landing .settings {
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -163,6 +163,7 @@ header ul li a {
     border-bottom-right-radius: 5px;
     top: 50%;
     transform: translateY(-50%);
+    box-shadow:  4px 7px 7px var(--MainColor--);
 }
 .landing .settings i {
     position: absolute;
